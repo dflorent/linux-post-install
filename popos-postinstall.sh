@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# Pop OS 22.04 LTS
+
 # first, updating the system
 sudo apt update && sudo apt full-upgrade -y
 
@@ -17,7 +19,7 @@ sudo apt install -y steam
 
 # flatpaks
 # sudo apt install flatpak
-# flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.libretro.RetroArch
 flatpak install -y flathub com.dropbox.Client
 
