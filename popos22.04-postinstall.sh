@@ -23,7 +23,7 @@ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flath
 flatpak install flathub org.libretro.RetroArch
 flatpak install -y flathub com.dropbox.Client
 
-#deemix
+# deemix
 sudo apt install python3-pip
 python3 -m pip install deemix
 # python3 -m deemix https://www.deezer.com/fr/album/320559147
